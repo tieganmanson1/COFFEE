@@ -1,24 +1,45 @@
 body {
-background-color: #bbbbbb;
+background-color: #565656;
 }
-h1 {
+h2 {
+  color: #aaaaaa;
   text-align: center;
-  color: blue;
 }
 h3 {
   font-style: italic;
+  font-family: 'Indie Flower',cursive;
   margin-top: 0;
+  color: #aaa
 }
 div {
-  background-size: cover;
   margin-top: 50px;
+  text-align: center;
+}
+p {
+  color: #dddddd;
+  font-family: 'Indie Flower', cursive;
 }
 a {
-  color: blue;
+  color: rgba(150,150,100,1);
 }
-.scrub {
-  background-size: cover;
+img {
+  border-radius: 50px
 }
-.sub-heading {
-  font-style: bold;
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #232323;
 }
+li {
+  display: inline;
+  padding: 30px;
+  color: #dddddd;
+}
+footer {
+  text-align: center;
+  background-color: #232323;
+  padding: 5px;
+}
+.footer p {
+  font-family: cursive;
+  }
