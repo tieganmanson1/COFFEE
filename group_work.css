@@ -12,7 +12,7 @@ h3 {
   color: #aaa
 }
 div {
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
 }
 p {
@@ -22,8 +22,10 @@ p {
 a {
   color: rgba(150,150,100,1);
 }
-img {
-  border-radius: 50px
+.container img {
+  border-radius: 50px;
+  width: 100%;
+  length: 240px;
 }
 header {
   text-align: center;
@@ -35,11 +37,16 @@ li {
   padding: 30px;
   color: #dddddd;
 }
+
+.social-icons li {
+  padding: 0;
+}
+
 footer {
   text-align: center;
   background-color: #232323;
   padding: 5px;
 }
 .footer p {
-  font-family: cursive;
+  font-family: 'Lato', sans-serif;
   }
