@@ -13,7 +13,6 @@ h3 {
 }
 div {
   margin-top: 50px;
-  text-align: center;
 }
 p {
   color: #dddddd;
@@ -24,6 +23,7 @@ a {
 }
 img {
   border-radius: 50px
+  text-align:center;
 }
 header {
   text-align: center;
