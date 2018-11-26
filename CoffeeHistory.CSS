@@ -1,1 +1,51 @@
-<!DOCTYPE CSS>
+
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: #dddddd;
+  font-family: 'Indie Flower', cursive;
+}
+div {
+  margin: 20px 12px 0 12px;
+}
+small {
+  font-size: 16px;
+}
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #232323;
+}
+li {
+  display: inline;
+  padding: 30px;
+  color: #dddddd;
+}
+footer {
+  text-align: center;
+  background-color: #232323;
+  padding: 5px;
+}
+.footer p {
+  font-family: cursive;
+  }
+.footer li {
+  padding: 0;
+}
