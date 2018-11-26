@@ -21,17 +21,35 @@ div {
   margin: 40px 0 0 0;
   border-radius: 12px;
 }
-h1 {
-  font-family: 'Lobster', cursive;
-  text-align: center;
-  font-size: 75px;
-  color: #aaaaaa;
-  margin: 60px 0 0 0;
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+
 h2 {
   text-align: center;
   color: #bbbbbb;
   margin: 0px 0 70px 0;
+}
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #232323
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #232323
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  color: #dddddd;
 }
 p {
   color: rgba(255,255,255,1);
@@ -41,6 +59,7 @@ p {
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   padding: 10px;
   line-height: 28px;
+  font-size: 20px;
   text-align: justify;
   position: absolute;
   bottom: 0;
@@ -70,17 +89,13 @@ small {
     line-height: 40px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 30px;
     margin: 20px 0 30px 0;
   }
   div {
     margin: 20px 12px 0 12px;
   }
-  p {
-    font color: #ffffff
-    font-size: 20px;
-    line-height: 24px;
-  }
+
   small {
     font-size: 16px;
   }
@@ -100,21 +115,25 @@ small {
     </ul>
   </header>
 
-<h1>COFFEE CRAZY</h1>
-<h2>A brief history of Coffee... </h2>
+<h2>Coffee History... </h2>
+<img src="coffee-cup-2317201_1920.jpg" alt="Coffee Cup" class="centre">
 <div class="first">
   <p> Where the Coffee Beans originates from <br />
-  <small> The Coffee bean originates from. It was bla bla bla. </small></p>
+  <small> the coffee plant was discovered in Ethiopia by a goatherd named Kaldi. The first coffee plant was found in the mountains of Yemen. Then by 1500, it was exported to the rest of the world through the port of Mocha, Yemen. </small></p>
 </div>
 
 <div class="second">
-  <p> Plantations around the world <br />
-  <small> Despite originating from, there are also coffee plantations around the globe. Bla BLa Bla</small></p>
+  <p> Coffee around the world <br />
+  <img src="coffeeplantation.jpg" alt="Coffee plantation" class="centre">
+  <small> The ideal conditions for coffee trees to thrive are found around the world in along the Equatorial zone called “The Bean Belt,” located between latitudes 25 degrees North and 30 degrees South.
+Finicky Arabica grows best at high altitudes in rich soil, while the heartier Robusta prefers a higher temperature and can thrive on lower ground. </small></p>
 </div>
 
 <div class="third">
-  <p>Five historical attempts to ban coffee <br />
-  <small>Despite everyone being a coffee fanatic these days, it has not always been that way. In fact there has been numerous attempts to ban coffee. Imagine a life like that! </small></p>
+  <p>Five places that have attempted to ban coffee<br/>
+    <img src="coffeeandphone.jpg" alt="Coffee phone" class="centre">
+  <small>Despite everyone being a coffee fanatic these days, it has not always been that way. In fact there has been numerous attempts to ban coffee. Imagine a life like that! Here are 5 countries that have attempted to ban coffee:
+  Mecca, Italy, Sweden, Constantinople and Russia. </small></p>
 </div>
 
 <script>
@@ -124,8 +143,10 @@ small {
 </script>
 
   <footer class="footer">
-    <p> Social media
+    <p>
       <ul>
+        <li>Social Media</li>
+
         <li><a href="#">facebook</a></li>
         <li><a href="#">twitter</a></li>
         <li><a href="#">instagram</a></li>
@@ -135,8 +156,9 @@ small {
     </p>
 
     <p>
-      Contact us
       <ul>
+        <li>Contact us</li>
+
         <li>Email: coffeecrazy101@gmail.com</li>
         <li>Phone: 0123456789</li>
         <li>Copyright 2018 Coffee Crazy</li>
